@@ -1,5 +1,5 @@
 import React from 'react'
-import Prodect from './Product.jsx'
+
 import second from "../image/second.jpg"
 export default function Home() {
     return (
@@ -14,7 +14,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <Prodect/>
+           
         </div>
     )
 }

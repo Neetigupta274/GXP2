@@ -6,9 +6,9 @@ import './index.css';
 // Correct way to import Bootstrap and Font Awesome
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-
+import { BrowserRouter } from 'react-router-dom';
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <BrowserRouter>
     <App />
-  </StrictMode>
+    </BrowserRouter>
 );
